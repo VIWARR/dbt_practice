@@ -1,12 +1,20 @@
 sources:
   - name: demo_src
+<<<<<<< HEAD
     description: Information about air travel
+=======
+>>>>>>> f33fc72e72d05270d03d6f230cbf4fb7cf311434
     schema: demo_src
     database: dwh_flight
     tables:
       - name: aircrafts
-        description: Information about aircrafts
+<<<<<<< HEAD
+        description: Information about aircrafts.
       - name: airports
-        description: Information about airports
+        description: Information about airports.
       - name: seats
-        description: Information about seats
+        description: Information about seats.
+=======
+      - name: airports
+      - name: seats
+>>>>>>> f33fc72e72d05270d03d6f230cbf4fb7cf311434
