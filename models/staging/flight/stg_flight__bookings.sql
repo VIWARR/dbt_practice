@@ -1,8 +1,9 @@
 {{
-  config(
-    materialized = 'tables'
-  )
+    config(
+        materialized = 'table'
+    )
 }}
+
 select
   book_ref,
   book_date,

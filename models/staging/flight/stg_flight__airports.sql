@@ -4,7 +4,6 @@
     )
 }}
 
-
 select
     airport_code, 
     airport_name, 
