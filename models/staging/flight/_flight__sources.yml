@@ -1,8 +1,12 @@
 sources:
   - name: demo_src
+    description: Information about air travel
     schema: demo_src
     database: dwh_flight
     tables:
       - name: aircrafts
+        description: Information about aircrafts
       - name: airports
+        description: Information about airports
       - name: seats
+        description: Information about seats
